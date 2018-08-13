@@ -1,0 +1,87 @@
+Dependencies for Project 'Convayer2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5B6ADA41)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+I (MotorMove.h)(0x5B13E7D7)
+I (pwm.h)(0x5B137382)
+I (adc.h)(0x5B0D18FB)
+I (satus.h)(0x5B6ADA41)
+I (sensor.h)(0x5B143D45)
+I (timer16B0.h)(0x5B67E5E0)
+I (timer32B1.h)(0x5B66C5AC)
+F (.\motormove.c)(0x5B6810CF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\motormove.o --omf_browse .\objects\motormove.crf --depend .\objects\motormove.d)
+I (MotorMove.h)(0x5B13E7D7)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+I (satus.h)(0x5B6ADA41)
+I (adc.h)(0x5B0D18FB)
+I (pwm.h)(0x5B137382)
+F (.\pwm.c)(0x5B13C751)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (pwm.h)(0x5B137382)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+F (.\adc.c)(0x5B138CA3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (adc.h)(0x5B0D18FB)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+F (.\satus.c)(0x5B6ADA42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\satus.o --omf_browse .\objects\satus.crf --depend .\objects\satus.d)
+I (satus.h)(0x5B6ADA41)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+F (.\sensor.c)(0x5B682594)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
+I (sensor.h)(0x5B143D45)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+I (satus.h)(0x5B6ADA41)
+F (.\timer32B1.c)(0x5B66FBE0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\timer32b1.o --omf_browse .\objects\timer32b1.crf --depend .\objects\timer32b1.d)
+I (timer32B1.h)(0x5B66C5AC)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+I (motormove.h)(0x5B13E7D7)
+I (satus.h)(0x5B6ADA41)
+F (.\timer32B0.c)(0x5B6ADA5D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\timer32b0.o --omf_browse .\objects\timer32b0.crf --depend .\objects\timer32b0.d)
+I (timer16B0.h)(0x5B67E5E0)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\lpc13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)
+I (motormove.h)(0x5B13E7D7)
+I (satus.h)(0x5B6ADA41)
+F (RTE\Device\LPC1342FBD48\startup_LPC13xx.s)(0x57C923A0)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc13xx.lst --xref -o .\objects\startup_lpc13xx.o --depend .\objects\startup_lpc13xx.d)
+F (RTE\Device\LPC1342FBD48\system_LPC13xx.c)(0x57C923A0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx-D__UVISION_VERSION="523" -D_RTE_-o .\objects\system_lpc13xx.o --omf_browse .\objects\system_lpc13xx.crf --depend .\objects\system_lpc13xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\LPC13xx.h)(0x57C923A0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x589888D2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx\system_LPC13xx.h)(0x57C923A0)

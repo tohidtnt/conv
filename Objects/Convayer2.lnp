@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\motormove.o"
+".\objects\pwm.o"
+".\objects\adc.o"
+".\objects\satus.o"
+".\objects\sensor.o"
+".\objects\timer32b1.o"
+".\objects\timer32b0.o"
+".\objects\startup_lpc13xx.o"
+".\objects\system_lpc13xx.o"
+--strict --scatter ".\Objects\Convayer2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Convayer2.map" -o .\Objects\Convayer2.axf

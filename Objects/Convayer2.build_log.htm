@@ -1,0 +1,189 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hadi rr, bnbn, LIC=IC963-ADZYA-8YZVV-PB0TW-5EIBF-VIHIE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Hadi\Desktop\Convayer\Convayer2.uvprojx
+Project File Date:  08/05/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling motormove.c...
+MotorMove.h(10): warning:  #1295-D: Deprecated declaration motorInit - give arg types
+  void motorInit();
+MotorMove.h(11): warning:  #1295-D: Deprecated declaration move - give arg types
+  void move();
+satus.h(17): warning:  #1295-D: Deprecated declaration getReadPanelStartStop - give arg types
+  int getReadPanelStartStop();
+satus.h(18): warning:  #1295-D: Deprecated declaration iOInit - give arg types
+  void	iOInit();
+satus.h(19): warning:  #1295-D: Deprecated declaration getReadPanelLeftRight - give arg types
+  int getReadPanelLeftRight();
+satus.h(20): warning:  #1295-D: Deprecated declaration getReadIoFromOut - give arg types
+  void getReadIoFromOut();
+satus.h(21): warning:  #1295-D: Deprecated declaration callPap - give arg types
+  void callPap();
+pwm.h(6): warning:  #1295-D: Deprecated declaration pwmInit - give arg types
+  void pwmInit ( );
+motormove.c: 8 warnings, 0 errors
+compiling pwm.c...
+pwm.h(6): warning:  #1295-D: Deprecated declaration pwmInit - give arg types
+  void pwmInit ( );
+pwm.c: 1 warning, 0 errors
+compiling main.c...
+MotorMove.h(10): warning:  #1295-D: Deprecated declaration motorInit - give arg types
+  void motorInit();
+MotorMove.h(11): warning:  #1295-D: Deprecated declaration move - give arg types
+  void move();
+pwm.h(6): warning:  #1295-D: Deprecated declaration pwmInit - give arg types
+  void pwmInit ( );
+satus.h(17): warning:  #1295-D: Deprecated declaration getReadPanelStartStop - give arg types
+  int getReadPanelStartStop();
+satus.h(18): warning:  #1295-D: Deprecated declaration iOInit - give arg types
+  void	iOInit();
+satus.h(19): warning:  #1295-D: Deprecated declaration getReadPanelLeftRight - give arg types
+  int getReadPanelLeftRight();
+satus.h(20): warning:  #1295-D: Deprecated declaration getReadIoFromOut - give arg types
+  void getReadIoFromOut();
+satus.h(21): warning:  #1295-D: Deprecated declaration callPap - give arg types
+  void callPap();
+sensor.h(13): warning:  #1295-D: Deprecated declaration sensorInit - give arg types
+  void sensorInit();
+sensor.h(14): warning:  #1295-D: Deprecated declaration getReadSensor - give arg types
+  void getReadSensor();
+timer16B0.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(43): warning:  #550-D: variable "tempSens1HighToLow"  was set but never used
+  	_Bool tempSens1HighToLow=1;
+main.c(46): warning:  #550-D: variable "tempSens2HighToLow"  was set but never used
+  	_Bool tempSens2HighToLow=1;
+main.c: 13 warnings, 0 errors
+compiling adc.c...
+adc.c(24): warning:  #61-D: integer operation result is out of range
+  	while((
+PC_ADC->DR[1] & (1<<31)) == 0); //Wait until conversion is finished
+adc.c(24): warning:  #68-D: integer conversion resulted in a change of sign
+  	while((
+PC_ADC->DR[1] & (1<<31)) == 0); //Wait until conversion is finished
+adc.c: 2 warnings, 0 errors
+compiling satus.c...
+satus.h(17): warning:  #1295-D: Deprecated declaration getReadPanelStartStop - give arg types
+  int getReadPanelStartStop();
+satus.h(18): warning:  #1295-D: Deprecated declaration iOInit - give arg types
+  void	iOInit();
+satus.h(19): warning:  #1295-D: Deprecated declaration getReadPanelLeftRight - give arg types
+  int getReadPanelLeftRight();
+satus.h(20): warning:  #1295-D: Deprecated declaration getReadIoFromOut - give arg types
+  void getReadIoFromOut();
+satus.h(21): warning:  #1295-D: Deprecated declaration callPap - give arg types
+  void callPap();
+satus.c: 5 warnings, 0 errors
+compiling sensor.c...
+sensor.h(13): warning:  #1295-D: Deprecated declaration sensorInit - give arg types
+  void sensorInit();
+sensor.h(14): warning:  #1295-D: Deprecated declaration getReadSensor - give arg types
+  void getReadSensor();
+satus.h(17): warning:  #1295-D: Deprecated declaration getReadPanelStartStop - give arg types
+  int getReadPanelStartStop();
+satus.h(18): warning:  #1295-D: Deprecated declaration iOInit - give arg types
+  void	iOInit();
+satus.h(19): warning:  #1295-D: Deprecated declaration getReadPanelLeftRight - give arg types
+  int getReadPanelLeftRight();
+satus.h(20): warning:  #1295-D: Deprecated declaration getReadIoFromOut - give arg types
+  void getReadIoFromOut();
+satus.h(21): warning:  #1295-D: Deprecated declaration callPap - give arg types
+  void callPap();
+sensor.c(23): warning:  #177-D: variable "Sensor2true"  was declared but never referenced
+  	int Sensor2true=1;
+sensor.c(24): warning:  #177-D: variable "Sensor3true"  was declared but never referenced
+  	int Sensor3true=1;
+sensor.c: 9 warnings, 0 errors
+assembling startup_LPC13xx.s...
+compiling timer32B0.c...
+timer16B0.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+motormove.h(10): warning:  #1295-D: Deprecated declaration motorInit - give arg types
+  void motorInit();
+motormove.h(11): warning:  #1295-D: Deprecated declaration move - give arg types
+  void move();
+satus.h(17): warning:  #1295-D: Deprecated declaration getReadPanelStartStop - give arg types
+  int getReadPanelStartStop();
+satus.h(18): warning:  #1295-D: Deprecated declaration iOInit - give arg types
+  void	iOInit();
+satus.h(19): warning:  #1295-D: Deprecated declaration getReadPanelLeftRight - give arg types
+  int getReadPanelLeftRight();
+satus.h(20): warning:  #1295-D: Deprecated declaration getReadIoFromOut - give arg types
+  void getReadIoFromOut();
+satus.h(21): warning:  #1295-D: Deprecated declaration callPap - give arg types
+  void callPap();
+timer32B0.c: 8 warnings, 0 errors
+compiling timer32B1.c...
+motormove.h(10): warning:  #1295-D: Deprecated declaration motorInit - give arg types
+  void motorInit();
+motormove.h(11): warning:  #1295-D: Deprecated declaration move - give arg types
+  void move();
+satus.h(17): warning:  #1295-D: Deprecated declaration getReadPanelStartStop - give arg types
+  int getReadPanelStartStop();
+satus.h(18): warning:  #1295-D: Deprecated declaration iOInit - give arg types
+  void	iOInit();
+satus.h(19): warning:  #1295-D: Deprecated declaration getReadPanelLeftRight - give arg types
+  int getReadPanelLeftRight();
+satus.h(20): warning:  #1295-D: Deprecated declaration getReadIoFromOut - give arg types
+  void getReadIoFromOut();
+satus.h(21): warning:  #1295-D: Deprecated declaration callPap - give arg types
+  void callPap();
+timer32B1.c: 7 warnings, 0 errors
+compiling system_LPC13xx.c...
+linking...
+Program Size: Code=2712 RO-data=328 RW-data=28 ZI-data=612  
+".\Objects\Convayer2.axf" - 0 Error(s), 53 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1300_DFP.1.1.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP LPC1300 Series Device Support
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC1300_DFP\1.1.0\Device\Include\LPC13xx
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_LPC13xx.c
+      Source file:   Device\Source\ARM\startup_LPC13xx.s
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
